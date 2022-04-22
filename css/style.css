@@ -17,6 +17,28 @@ h1, h2, h3, h4, h5, h6, p{margin: 0;}
 ul, ol{margin: 0; padding: 0; list-style: none;}
 a{text-decoration: none;}
 
+
+/*12 Grid Line
+#grid_12{
+    position: fixed;
+    width: 1200px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background: #aaf;
+    display: flex;
+    z-index: -1;
+}
+#grid_12 div{
+    width: 80px;
+    height: 100%;
+    margin: 0 10px;
+    background-color: #faf;
+}
+*/
+
+
 /*
 #concept{height: 660px; padding: 40px 0 20px; background-color: #ccc;}
 
@@ -355,7 +377,7 @@ span.shooting{font-weight: 700;}
 #Gallery .wrap .images:nth-child(3)
 {
     background-image: url(../img/h-img13.jpg);
-    margin-right: 180px;
+    margin-right: 189px;
     margin-bottom: 20px;
 }
 #Gallery .wrap .images:nth-child(4)
@@ -556,11 +578,12 @@ span.shooting{font-weight: 700;}
     height: 100%;
     /* background-color: #faf; */
     display: flex;
+    justify-content: space-around;
 }
 
 #Blog .center .cont .images
 {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     height: 100%;
     margin: 0 10px;
     /* background-color: #afa; */
@@ -571,12 +594,14 @@ span.shooting{font-weight: 700;}
 
 #Blog .center .cont .images:nth-child(1){
     background-image: url(../img/h-img32.jpg);
+    margin-left: 0;
 }
 #Blog .center .cont .images:nth-child(2){
     background-image: url(../img/h-img33.jpg);
 }
 #Blog .center .cont .images:nth-child(3){
     background-image: url(../img/h-img34.jpg);
+    margin-right: 0;
 }
 
 #Blog .center .cont .images .Inbox
@@ -690,7 +715,7 @@ span.shooting{font-weight: 700;}
     width: calc(100% / 12 * 10);
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 115px;
 }
 
@@ -713,7 +738,7 @@ span.shooting{font-weight: 700;}
 #Banner .center .right .box:nth-child(4){background-image: url(../img/client-7-1.png); width: 141px; height: 59px;}
 #Banner .center .right .box:nth-child(4):hover{background-image: url(../img/client-7-haver.png); width: 141px; height: 59px;}
 #Banner .center .right .box:nth-child(5){background-image: url(../img/client-8-haver.png); width: 132px; height: 32px;}
-#Banner .center .right .box:nth-child(5):hover{background-image: url(../img/client-8.png); width: 132px; height: 32px;}
+#Banner .center .right .box:nth-child(5):hover{background-image: url(../img/client-8.png); width: 132px; height: 32px; margin-right: 0;}
 
 /* footer */
 
