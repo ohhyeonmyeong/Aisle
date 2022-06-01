@@ -665,20 +665,28 @@ span.shooting{font-weight: 700;}
 
 #Register .center form{display: flex; flex-direction: column;}
 
-#Register .center form input{line-height: 40px; padding-left: 20px; border-radius: 7px; outline: none; border: none; font-size: 18px;} 
+#Register .center form input{
+    line-height: 40px;
+    padding-left: 20px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+} 
 
 #Register .center form input:nth-child(1){margin-bottom: 20px;}
 #Register .center form input:nth-child(3){margin: 20px 0 10px;}
 #Register .center form a
 {
     width: 180px;
-    line-height: 65px;
+    line-height: 60px;
     background-color: #ce782a;
     border-radius: 7px;
     margin: 0 auto;
     color: #fff;
     font-size: 20px;
     font-weight: 300;
+    margin-top: 10px;
 }
 
 #Register .center form a:hover{background-color: rgba(0, 0, 0, 0.5);}
